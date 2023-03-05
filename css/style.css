@@ -1,0 +1,33 @@
+/* Copied from http://bettermotherfuckingwebsite.com/ */
+body{
+    margin:40px auto;
+    max-width:650px;
+    line-height:1.6;
+    font-size:18px;
+    color:rgb(68, 68, 68);
+    padding:0 10px
+}
+h1,h2,h3{
+    line-height:1.2
+}
+
+
+/* Org keywords */
+.org-keyword {
+    color: #a020f0;
+}
+.org-function-name {
+    color: #0000ff;
+}
+.org-string {
+    color: #8b2252;
+}
+.org-builtin {
+    color: #483d8b;
+}
+.org-comment {
+    color: #c0c0c0;
+}
+.org-comment-delimiter {
+    color: #c0c0c0;
+}
