@@ -47,10 +47,19 @@
              :publishing-directory "./build"
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
-             :with-toc t                ;; Include a table of contents
+             :with-toc nil                ;; Include a table of contents
              :section-numbers nil       ;; Don't include section numbers
-             :time-stamp-file nil)
-))
+             :time-stamp-file nil
+             :auto-preamble nil
+             :html-preamble "<div id=\"navbar\"> <ul>
+                <li><a href=\"index.html\">Home</a></li>
+                <li><a href=\"blog.html\">Blog</a></li>
+                <li><a href=\"setup.html\">Setup</a></li>
+                <li><a href=\"sitemap.html\">Sitemap</a></li>
+                </ul>
+                <hr>
+                </div>"
+)))
 
 ;; Generate the site output
 (org-publish-all t)
