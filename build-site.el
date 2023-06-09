@@ -45,6 +45,8 @@
              :base-extension "org"
              :publishing-function 'org-html-publish-to-html
              :publishing-directory "./build"
+             :auto-sitemap t
+             :with-title nil
              :with-author nil           ;; Don't include author name
              :with-creator t            ;; Include Emacs and Org versions in footer
              :with-toc nil                ;; Include a table of contents
