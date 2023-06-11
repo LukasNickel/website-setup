@@ -50,6 +50,8 @@ h1,h2,h3{
     bottom:0px;
     width:100%;
     background-color: white;
+    border-color: black;
+    border-top:2px solid;
 }
 
 /* TODO: A ToC on the left side would be nice imo. But that would need to be fluid and collapse on mobile screens, hm... */
