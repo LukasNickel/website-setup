@@ -44,6 +44,14 @@ h1,h2,h3{
     color: white;
 }
 
+#postamble {
+    position: fixed;
+    max-width:650px;
+    bottom:0px;
+    width:100%;
+    background-color: white;
+}
+
 /* TODO: A ToC on the left side would be nice imo. But that would need to be fluid and collapse on mobile screens, hm... */
 
 /* Org keywords
