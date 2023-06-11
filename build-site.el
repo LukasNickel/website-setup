@@ -20,7 +20,7 @@
 (setq org-html-validation-link nil            ;; Don't show validation link
       org-html-head-include-scripts nil       ;; Use our own scripts
       org-html-head-include-default-style nil ;; Use our own styles
-      org-html-head "<link rel=\"stylesheet\" href=\"style.css\">"
+      org-html-head "<link rel=\"stylesheet\" href=\"/css/style.css\">"
       org-html-htmlize-output-type 'css
       )
 
@@ -54,10 +54,10 @@
              :time-stamp-file nil
              :auto-preamble nil
              :html-preamble "<div id=\"navbar\"> <ul>
-                <li><a href=\"index.html\">Home</a></li>
-                <li><a href=\"blog.html\">Blog</a></li>
-                <li><a href=\"setup.html\">Setup</a></li>
-                <li><a href=\"sitemap.html\">Sitemap</a></li>
+                <li><a href=\"/index.html\">Home</a></li>
+                <li><a href=\"/blog.html\">Blog</a></li>
+                <li><a href=\"/setup.html\">Setup</a></li>
+                <li><a href=\"/sitemap.html\">Sitemap</a></li>
                 </ul>
                 <hr>
                 </div>"
