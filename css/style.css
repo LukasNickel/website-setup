@@ -11,8 +11,10 @@ h1,h2,h3{
     line-height:1.2
 }
 
-/* Basic Navbar based on https://www.w3schools.com/Css/css_navbar_horizontal.asp
- * I changed it to be more like the one here: https://berkeleygraphics.com/
+/* Basic Navbar based on
+ * https://www.w3schools.com/Css/css_navbar_horizontal.asp
+ * I changed it to be more like the one here:
+ * https://berkeleygraphics.com/
 */
 #navbar > ul{
     margin: 0;
@@ -45,7 +47,7 @@ h1,h2,h3{
 }
 
 #postamble {
-    position: fixed;
+    position: relative;
     max-width:650px;
     bottom:0px;
     width:100%;
@@ -54,7 +56,8 @@ h1,h2,h3{
     border-top:2px solid;
 }
 
-/* TODO: A ToC on the left side would be nice imo. But that would need to be fluid and collapse on mobile screens, hm... */
+/* TODO: A ToC on the left side would be nice imo.
+ * But that would need to be fluid and collapse on mobile screens, hm... */
 
 /* Org keywords
  * TODO: I will need more here.
