@@ -25,8 +25,6 @@ h1,h2,h3{
 }
 #navbar > ul li {
     display: inline-block;
-    text-align: center;
-    padding: 2px 20px;
     background-color: white;
     border-color: black;
     border:2px solid;
@@ -35,6 +33,7 @@ h1,h2,h3{
 #navbar > ul li a {
     color: black;
     text-decoration: none;
+    padding: 2px 20px;
 }
 
 #navbar > ul li:hover{
